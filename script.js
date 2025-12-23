@@ -19,7 +19,7 @@ function renderServices() {
   filteredServices.slice(0, visibleCount).forEach(s => {
     list.innerHTML += `
       <div class="service-card">
-        <img src="images/IMG_0918 1.svg" />
+        <img src="IMG_0918 1.svg" />
         <div class="service-info">
           <h2>${s.name}</h2>
           <small>${s.city} | ${s.years}+ Years of Service</small>
